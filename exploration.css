@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+header {
+    padding: 40px 0px 40px 72px;
+}
+.menu {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    padding: 10px 20px;
+    /* justify-content: space-between; */
+    /* width: 50%; */
+}
+
+.item {
+padding: 0 10px 0 10px;
+}
+
+.menu h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #C4C4CC;
+ 
+}
+
+.menu .selected{
+    font-weight: 700;
+    font-size: 1.5rem;
+    /* color: red; */
+    color:#FFFFFF;
+}
+
+body {
+    margin: 0;
+    height: 100vh; 
+    background-image: url("./assets/mountains-universe-3.svg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3rem;
+    color: #E1E1E6;
+    text-align: center;
+    display: flex; /* Define o body como um container flex */
+    flex-direction: column; /* Empilha os elementos filhos do body verticalmente */
+
+}
+
+main {
+    flex: 1; /* Faz o main ocupar o espaço restante */
+    display: flex; /* Aplica flex ao conteúdo do main */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: left; /* Centraliza o conteúdo verticalmente */
+    flex-direction: column;
+    gap: 24px;
+    text-align: left;
+}
+
+.content-container {
+    height: 203px;
+    width: 648px;
+    margin-left: 6.375rem;
+
+}
+
+main h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+main h6 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #C4C4CC;
+}
